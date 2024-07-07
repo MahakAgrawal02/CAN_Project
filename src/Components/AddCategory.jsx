@@ -28,6 +28,7 @@ const AddCategory = () => {
                     <input type="text" name='category' placeholder='Enter Category'
                      onChange={(e) => setCategory(e.target.value)} className='form-control rounded-0'/>
                 </div>
+                
                 <button className='btn btn-success w-100 rounded-0 mb-2'>Add Category</button>
             </form>
         </div>
